@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="final.css">
+        <title>Ava's Library</title>
+        
+ 
+    </head>
+    <body>
+        <div class = "container">
+            <div id = "books-picture"></div>
+            <div id = "placeholder"></div>
+            <nav id = "navigation">
+                    <a href ="final.html"><button>About</button></a>
+                    <a href ="recs.html"><button> Recs</button></a>
+                    <a href ="quiz.html"><button> Quiz</button></a>
+                    <a href ="contact.html"><button> Contact</button></a>
+            </nav>
+            <div id="content">
+                <p id  ="sectionHeadings">Lets Find Your Book!</p>
+                <form id = "quiz-form">
+                    <label for = "genre">What genre interests you the most?</label>
+                    <select id = "genre" name = "genre">
+                        <option value = "" disabled selected>Select one</option>
+                        <option value = "Fantasy">Fantasy</option>
+                        <option value = "Dystopian">Dystopian</option>
+                        <option value = "Thriller">Thriller</option>
+                        <option value = "Romance">Romance</option>
+                    </select>
+                    <br><br>
+
+                    <label for = "type">Would you prefer a standalone book or series?</label>
+                    <select id = "type" name = "type">
+                        <option value = "" disabled selected>Select one</option>
+                        <option value = "Standalone">Standalone</option>
+                        <option value = "Series">Series</option>
+                    </select>
+                    <br><br>
+
+                    <label for = "day">What is your perfect day?</label>
+                    <select id = "day" name = "day">
+                        <option value = "" disabled selected>Select one</option>
+                        <option value = "Forest">Exploring an enchanted forest</option>
+                        <option value = "Detective">Investigating a mysterious murder</option>
+                        <option value = "Beach">Romantic day at the beach</option>
+                        <option value = "Government">Tearing down a corrupt goverment</option>
+                    </select>
+                    <br><br>
+
+                    <label for = "drink">What is your preferred drink?</label>
+                    <select id = "drink" name = "drink">
+                        <option value = "" disabled selected>Select one</option>
+                        <option value = "Coffee">Black coffee</option>
+                        <option value = "Wine">Mulled wine</option>
+                        <option value = "Juice">Juice</option>
+                        <option value = "Latte">Iced vanilla latte</option>
+
+                    </select>
+                    <br><br>
+
+                    <button type="button" id="submit">Submit!</button>
+
+                </form><br><br>
+
+                <p id = "recommendation"></p>
+            </div>
+         </div>
+         <script src = "quiz.js"></script>
+    
+    </body>
+    
+</html>
